@@ -1,0 +1,20 @@
+# data.yaml pour YOLOv8
+
+# Nom du projet
+name: 'Plant Disease Detection'
+
+# Nombre de classes
+nc: 2  # Deux classes : 'maladie' et 'sain'
+
+# Liste des classes
+names:
+  0: 'maladie'   # Classe 0 : Plante malade
+  1: 'sain'      # Classe 1 : Plante saine
+
+# Dossiers d'images et d'annotations
+train: 'data/plant_disease/images/train'  # Remplace par le chemin vers ton dossier d'entraînement
+val: 'data/plant_disease/images/val'  # Remplace par le chemin vers ton dossier de validation
+
+# Dossiers d'annotations
+train_labels: 'data/plant_disease/labels/train'  # Remplace par le chemin vers le dossier d'annotations d'entraînement
+val_labels: 'data/plant_disease/labels/val'  # Remplace par le chemin vers le dossier d'annotations de validation
